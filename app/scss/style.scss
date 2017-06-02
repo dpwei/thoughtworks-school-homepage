@@ -298,3 +298,38 @@ footer {
 	border: 1px solid #979797;
 	width: 35px;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-size: contain;
+	height: 35px;
+	width: 15px;
+}
+
+.carousel-control-prev-icon {
+	background-image: url(../img/prev.png);
+}
+
+.carousel-control-next-icon {
+	background-image: url(../img/next.png);
+}
+
+.carousel-control-prev, .carousel-control-next {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	width: 10%;
+	color: #fff;
+	opacity: 0.5;
+}
+
+.carousel-control-prev {
+	left: -30px;
+	justify-content: flex-start;
+}
+
+.carousel-control-next {
+	right: -30px;
+	justify-content: flex-end;
+}

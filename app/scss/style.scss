@@ -1,1 +1,293 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:3');
+
+html {
+	font-size: 16px;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+
+	.nav-link {
+		letter-spacing: 2px;
+		padding: 10px 20px;
+	}
+
+	.dropdown-menu {
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+}
+
+.bg-inverse {
+	transition: 0.5s;
+}
+
+.horizon-line {
+	border-bottom: 1px solid #999;
+}
+
+header {
+	background: url(../img/header-bg.png) no-repeat scroll center center;
+	background-size: cover;
+	height: 770px;
+
+	.tw-school-logo-wh {
+		margin-top: 164px;
+	}
+}
+
+.tw-school-title {
+	margin-top: 106px;
+}
+
+.tw-school-subtitle {
+	font-weight: lighter;
+	margin-top: 24px;
+}
+
+.btn-study {
+	width: 200px;
+	height: 60px;
+	font-size: 18px;
+	letter-spacing: 4px;
+	padding-top: 16px;
+}
+
+.targets-bg {
+	background: #f8f8f8;
+	padding: 116px 0;
+}
+
+.targets-description {
+	position: relative;
+	top: -60px;
+}
+
+.targets-description-title {
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.targets-description-subtitle {
+	font-size: 32px;
+	letter-spacing: 16px;
+}
+
+.targets-img-bg {
+	background: url(../img/targets-bg.png) no-repeat scroll center center;
+	background-size: cover;
+	height: 300px;
+
+	.card-title {
+		margin-bottom: 0;
+		font-weight: bolder;
+	}
+	.card-text {
+		letter-spacing: 2px;
+	}
+}
+
+.online-center-bg {
+	background: url(../img/online-center-bg.png) no-repeat scroll center center;
+	background-size: cover;
+	height: 408px;
+}
+
+.online-center-title {
+	font-size: 24px;
+	letter-spacing: 2px;
+	padding-top: 80px;
+}
+
+.online-center-description {
+	display: inline-block;
+	margin-top: 40px;
+	font-size: 14px;
+	font-weight: lighter;
+	letter-spacing: 1.5px;
+}
+
+.offline-activity-bg {
+	background: #fff;
+}
+
+.tech-power-bg {
+	background: rgba(231, 231, 231, .3);;
+}
+
+.global-tech-leaders {
+	img {
+		width: 140px;
+		height: 140px;
+	}
+	.card {
+		margin: 0 10px;
+	}
+}
+
+.global-tech-leader-name {
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	margin: 20px 0;
+}
+
+.teachers {
+	img {
+		width: 108px;
+		height: 108px;
+	}
+
+	> div {
+		margin-top: 30px;
+	}
+}
+
+.teacher-name {
+	font-size: 22px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.teacher-description {
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+.student-testimonial {
+	&::before {
+		content: url(../img/quote-start.png);
+		position: absolute;
+		top: -20px;
+		left: -15px;
+	}
+	&::after {
+		content: url(../img/quote-end.png);
+		position: absolute;
+		bottom: -10px;
+		right: 0;
+	}
+}
+
+.testimonial-bg {
+	background: #fff;
+}
+
+.student-info {
+	margin: 50px 0;
+
+	img {
+		width: 82px;
+		height: 82px;
+	}
+}
+
+.student-name {
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.student-grade {
+	color: rgba(65, 65, 65, .6);
+	font-size: 14px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+.student-testimonial {
+	color: #414141;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-weight: lighter;
+}
+
+.about-us-bg {
+	background: url(../img/about-us-bg.png) no-repeat scroll top center;
+	background-size: cover;
+}
+
+.about-us-description {
+	font-size: 14px;
+	letter-spacing: 1.4px;
+	font-weight: lighter;
+}
+
+footer {
+	background: #282828;
+	color: #fff;
+	padding: 40px 0;
+	font-size: 14px;
+	font-weight: lighter;
+
+	a.fa {
+		color: rgba(255, 255, 255, .5);
+		font-size: 17px;
+	}
+	a.fa:hover {
+		color: rgba(255, 255, 255, .95);
+	}
+	a {
+		color: #fff;
+	}
+	a:hover {
+		color: rgba(255, 255, 255, .8);
+		text-decoration: none;
+	}
+}
+
+.copyright {
+	color: rgba(255, 255, 255, .5);
+	padding-top: 5px;
+}
+
+.student-vertical-line {
+	opacity: .2;
+	border-right: 1px solid #979797;
+}
+
+.tw-school-logo-wh {
+	width: 229px;
+	height: 41px;
+}
+
+.thoughtworks-logo-wh {
+	width: 190px;
+	height: 30px;
+}
+
+.qr-code-wh {
+	width: 174px;
+	height: 174px;
+}
+
+.card {
+	background: none;
+	border: none;
+}
+
+.hidden {
+	visibility: hidden;
+	transition: 0.2s;
+}
+
+.letter-space-2 {
+	letter-spacing: 2px;
+}
+
+.dark-underline {
+	background: #979797;
+	height: 4px;
+	width: 64px;
+	margin-top: 10px;
+}
+
+.light-underline {
+	border: 1px solid #979797;
+	width: 35px;
+}

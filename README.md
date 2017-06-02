@@ -1,21 +1,15 @@
-# Static Website Boilerplate
+# 思特沃克学院-首页
 
-Static website boilterplate built using Webpack. This boilterplate features following:
+Features following:
 
 - Webpack
 - ES6
-- Bootstrap
+- Bootstrap v4
 - Font Awesome
 - Sass
 - Live reload using Browsersync
 
 ## Getting Started
-
-Clone the repo
-
-```sh
-git clone https://github.com/binoy14/static-website-webpack-boilerplate.git
-```
 
 Run script to start devlopment
 ```sh

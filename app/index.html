@@ -1,41 +1,390 @@
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="Static website boilerplate using webpack and bootstrap">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="思特沃克学院">
+</head>
+<body>
 
-		<title>Static Website Boilerplate</title>
-
-		<!-- Disable tap highlight on IE -->
-		<meta name="msapplication-tap-highlight" content="no">
-
-		<!-- Web Application Manifest -->
-		<link rel="manifest" href="manifest.json">
-
-		<!-- Add to homescreen for Chrome on Android -->
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="application-name" content="Static Website Boilerplate">
-		<link rel="icon" sizes="192x192" href="/img/chrome-touch-icon-192x192.png">
-
-		<!-- Add to homescreen for Safari on iOS -->
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<meta name="apple-mobile-web-app-title" content="Static Website Boilerplate">
-		<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-
-		<!-- Tile icon for Win8 (144x144 + tile color) -->
-		<meta name="msapplication-TileImage" content="/img/ms-touch-icon-144x144-precomposed.png">
-		<meta name="msapplication-TileColor" content="#263238">
-
-		<!-- Color the status bar on mobile devices -->
-		<meta name="theme-color" content="#263238">
-	</head>
-	<body>
-			<div class="container-fluid">
-				<div class="alert alert-success" role="alert">
-					<strong>Well done!</strong> You successfully read this important alert message.
+<nav id="navbar" class="navbar navbar-toggleable-sm navbar-inverse fixed-top">
+	<div class="container">
+		<button class="navbar-toggler navbar-toggler-right"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNavDropdown">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#">
+			<img id="navbar-logo" class="tw-school-logo-wh" src="img/logo.png" alt="思特沃克学院">
+		</a>
+		<div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">在线学习中心</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+						 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						项目
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">结对编程</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">卓越女生计划</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">FAQ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">论坛</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<header>
+	<div class="text-white text-center pt-5">
+		<img class="tw-school-logo-wh" src="img/logo.png" alt="思特沃克学院">
+		<h1 class="tw-school-title">做让自己佩服的人</h1>
+		<p class="tw-school-subtitle">不只培养全栈工程师，更是培养终身学习者</p>
+		<a class="btn btn-primary btn-study" href="#" role="button" aria-pressed="true">开始学习</a>
+	</div>
+</header>
+<section class="jumbotron jumbotron-fluid text-center targets-bg">
+	<div class="container targets-img-bg">
+		<div class="targets-description">
+			<p class="targets-description-title">我们的目标是</p>
+			<h1 class="targets-description-subtitle">培养数字化人才</h1>
+		</div>
+		<div class="d-flex justify-content-between justify-content-md-around mt-3">
+			<div class="card">
+				<img class="card-img-top" src="img/design.svg" alt="">
+				<div class="card-block">
+					<p class="card-title text-uppercase">design</p>
+					<p class="card-text">设计思维</p>
 				</div>
 			</div>
-	</body>
+			<div class="card">
+				<img class="card-img-top" src="img/engineering.svg" alt="">
+				<div class="card-block">
+					<p class="card-title text-uppercase">engineering</p>
+					<p class="card-text">工程实践</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="img/business.svg" alt="">
+				<div class="card-block">
+					<p class="card-title text-uppercase">business</p>
+					<p class="card-text">商业视角</p>
+				</div>
+			</div>
+		</div>
+		<div class="d-flex flex-column align-items-center">
+			<img class="targets-underline" src="img/targets-underline.png" alt="">
+			<img class="mt-3" src="img/agile.svg" alt="Agile">
+		</div>
+	</div>
+</section>
+<section class="text-center mt-5">
+	<div class="h3">我们提供的学习环境</div>
+	<div class="d-inline-block dark-underline"></div>
+	<div class="container online-center-bg">
+		<div class="text-white mt-5">
+			<div class="online-center-title">在线学习中心</div>
+			<div class="d-inline-block light-underline mt-2"></div>
+			<div>
+				<p class="online-center-description">我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字</p>
+			</div>
+			<div class="d-flex justify-content-center py-5">
+				<a href="#" class="btn btn-primary px-5 mr-3">加入</a>
+				<a href="#" class="btn btn-outline-secondary px-5">登陆</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="jumbotron jumbotron-fluid text-center offline-activity-bg">
+	<div class="container">
+		<div class="h4">线下活动</div>
+		<div class="d-inline-block light-underline"></div>
+		<div id="offline-activities" class="carousel slide mt-5" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<!-- 手机端使用时显示 start -->
+				<div class="hidden-md-up">
+					<div class="carousel-item active">
+						<div class="container">
+							<div class="row mb-4 align-items-center">
+								<div class="col-7 text-left">
+									<div class="h3 letter-space-2">结对编程</div>
+									<div class="h4 text-uppercase">pair programing</div>
+								</div>
+								<div class="col-5 text-right">
+									<a class="btn btn-primary btn-lg" href="#">查看详情</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<img class="img-fluid" src="img/pair-programing.png" alt="结对编程">
+									<div class="text-center my-4">
+										我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 手机端使用时显示 end-->
+
+				<!-- Web 端使用时显示 start-->
+				<div class="hidden-sm-down">
+					<div class="carousel-item active">
+						<div class="container">
+							<div class="row">
+								<div class="col-7">
+									<img class="img-fluid" src="img/pair-programing.png" alt="结对编程">
+								</div>
+								<div class="col-5 text-left mt-2">
+									<div class="h3 letter-space-2">结对编程</div>
+									<div class="h4 text-uppercase letter-space-2">pair programing</div>
+									<div class="my-4">
+										我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字我是描述文字
+									</div>
+									<a class="btn btn-primary btn-lg" href="#">查看详情</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Web 端使用时显示 end-->
+
+				<a class="carousel-control-prev" href="#offline-activities" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#offline-activities" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="jumbotron jumbotron-fluid text-center tech-power-bg">
+	<div class="h3 mt-1">全球技术领导力</div>
+	<div class="d-inline-block dark-underline"></div>
+	<div class="container mt-5">
+		<div class="row global-tech-leaders">
+			<div class="col-md col-sm-4">
+				<div class="card align-items-center">
+					<img class="card-img-top rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					<div class="global-tech-leader-name">
+						Martin Fowler
+					</div>
+				</div>
+			</div>
+			<div class="col-md col-sm-4">
+				<div class="card align-items-center">
+					<img class="card-img-top rounded-circle" src="img/rebecca-parsons.png" alt="Card image cap">
+					<div class="global-tech-leader-name">
+						Rebecca Parsons
+					</div>
+				</div>
+			</div>
+			<div class="col-md col-sm-4">
+				<div class="card align-items-center">
+					<img class="card-img-top rounded-circle" src="img/jim-highsmith.png" alt="Card image cap">
+					<div class="global-tech-leader-name">
+						Jim Highsmith
+					</div>
+				</div>
+			</div>
+			<div class="col-md col-sm-4">
+				<div class="card align-items-center">
+					<img class="card-img-top rounded-circle" src="img/ola-bini.png" alt="Card image cap">
+					<div class="global-tech-leader-name">
+						Ola Bini
+					</div>
+				</div>
+			</div>
+			<div class="col-md col-sm-4">
+				<div class="card align-items-center">
+					<img class="card-img-top rounded-circle" src="img/neal-ford.png" alt="Card image cap">
+					<p class="global-tech-leader-name">
+						Neal Ford
+					</p>
+				</div>
+			</div>
+		</div>
+		<img class="img-fluid my-5" src="img/books.png" alt="">
+		<div class="h3">师资队伍</div>
+		<div class="d-inline-block dark-underline"></div>
+		<div class="row teachers">
+			<div class="col-sm-6 col-md-4">
+				<div class="d-flex flex-md-row flex-sm-column align-items-center">
+					<div>
+						<img class="rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					</div>
+					<div class="text-left ml-3">
+						<p class="teacher-name">Martin Fowler</p>
+						<p class="teacher-description">描述文字描述文字描述文字描述文字描述文字描述文字</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="d-flex flex-md-row flex-sm-column align-items-center">
+					<div>
+						<img class="rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					</div>
+					<div class="text-left ml-3">
+						<p class="teacher-name">Martin Fowler</p>
+						<p class="teacher-description">描述文字描述文字描述文字描述文字描述文字描述文字</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="d-flex flex-md-row flex-sm-column align-items-center">
+					<div>
+						<img class="rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					</div>
+					<div class="text-left ml-3">
+						<p class="teacher-name">Martin Fowler</p>
+						<p class="teacher-description">描述文字描述文字描述文字描述文字描述文字描述文字</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="d-flex flex-md-row flex-sm-column align-items-center">
+					<div>
+						<img class="rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					</div>
+					<div class="text-left ml-3">
+						<p class="teacher-name">Martin Fowler</p>
+						<p class="teacher-description">描述文字描述文字描述文字描述文字描述文字描述文字</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="d-flex flex-md-row flex-sm-column align-items-center">
+					<div>
+						<img class="rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					</div>
+					<div class="text-left ml-3">
+						<p class="teacher-name">Martin Fowler</p>
+						<p class="teacher-description">描述文字描述文字描述文字描述文字描述文字描述文字</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="d-flex flex-md-row flex-sm-column align-items-center">
+					<div>
+						<img class="rounded-circle" src="img/martin-fowler.png" alt="Card image cap">
+					</div>
+					<div class="text-left ml-3">
+						<p class="teacher-name">Martin Fowler</p>
+						<p class="teacher-description">描述文字描述文字描述文字描述文字描述文字描述文字</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="jumbotron jumbotron-fluid testimonial-bg my-0">
+	<div class="container text-center">
+		<div class="h3 text-uppercase">Testimonial</div>
+		<div class="d-inline-block dark-underline"></div>
+		<div class="row align-items-md-center mt-5">
+			<div class="col-md-3 col-sm-12">
+				<div class="student-info">
+					<div class="d-flex align-items-center">
+						<div class="mr-3">
+							<img class="rounded-circle" src="img/student-photo-0.png" alt="张小媛">
+						</div>
+						<div>
+							<div class="student-name">张小媛</div>
+							<div class="student-grade">2016届学员</div>
+						</div>
+						<div class="student-vertical-line"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-12 text-left">
+				<div class="student-testimonial">
+					在长期使用Persona的过程中，我们开始反思在当前设计环境下Persona作为设计方法论的必要性。Persona的定义和解释不再赘述，即尝试使用一个具象的用户画像来讨论用户的需求（内在与外在）、定义用户目标、规划体验地图、发现痛点和机会、最后进行设计。
+				</div>
+			</div>
+		</div>
+		<div class="row align-items-md-center">
+			<div class="col-md-3 col-sm-12">
+				<div class="student-info">
+					<div class="d-flex flex-md-row flex-sm-row-reverse align-items-center">
+						<div class="mr-3">
+							<img class="rounded-circle" src="img/student-photo-1.png" alt="李煜">
+						</div>
+						<div>
+							<div class="student-name">李煜</div>
+							<div class="student-grade">2016届学员</div>
+						</div>
+						<div class="student-vertical-line"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-12 text-left">
+				<div class="student-testimonial">
+					Persona的定义和解释不再赘述，即尝试使用一个具象的用户画像来讨论用户的需求（内在与外在）、定义用户目标、规划体验地图、发现痛点和机会、最后进行设计。
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="jumbotron jumbotron-fluid my-0 about-us-bg">
+	<div class="container">
+		<div class="d-flex justify-content-between align-items-center">
+			<div class="card mx-0 about-us-description">
+				<div class="d-flex align-items-center my-4">
+					<div class="h3 mr-2">关于</div>
+					<img class="thoughtworks-logo-wh" src="img/thought-works.png" alt="ThoughtWorks">
+				</div>
+				<p class="card-text">
+					ThoughtWorks是一家全球信息技术服务公司，在美国，英国，澳大利亚，德国，新加坡，印度，巴西，南非，中国，厄瓜多尔，土耳其等十几个国家中，她成为超过4000技术牛人的实践乐园。</p>
+				<p class="card-text">ThoughtWorks进入中国十年，分别在北京，上海，深圳，西安，成都和武汉成立了分公司
+					，有接近1000名员工通过全球资源共享和人才交流，服务全球各行业的顶尖客户。</p>
+				<a class="card-link" href="https://www.thoughtworks.com/">前往ThoughtWorks官网</a>
+			</div>
+			<div class="card text-center hidden-sm-down">
+				<p>与我们互动</p>
+				<img class="card-img-bottom mt-2 qr-code-wh" src="img/qr-code.png" alt="二维码">
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-7 col-sm-12">
+				<ul class="nav justify-content-around">
+					<li class="nav-item">
+						<span>Follow Us:</span>
+						<a class="fa fa-linkedin px-3" href="#"></a>
+						<a class="fa fa-weibo pr-3" href="#"></a>
+						<a class="fa fa-weixin pr-3" href="#"></a>
+					</li>
+					<li class="nav-item">
+						<a href="">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="">About Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-5 text-right">
+				<div class="copyright">© 2017 ThoughtWorks, Inc.</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</footer>
+</body>
 </html>

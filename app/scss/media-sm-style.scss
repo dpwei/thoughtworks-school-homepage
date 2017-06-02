@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+
+	#navbar {
+		.container {
+			margin-left: 0;
+			margin-right: 0;
+			width: 100%;
+		}
+	}
+	.tw-school-title {
+		font-size: 36px;
+		letter-spacing: 20px;
+	}
+	.tw-school-subtitle {
+		font-size: 14px;
+		letter-spacing: 4px;
+		font-weight: lighter;
+	}
+
+	.btn-study {
+		margin-top: 140px;
+	}
+
+	.targets-img-bg {
+		width: 90%;
+
+		.card-title {
+			font-size: 20px;
+			letter-spacing: 2px;
+		}
+
+		.card-text {
+			font-size: 20px;
+		}
+	}
+
+	.targets-underline {
+		width: 95%;
+	}
+
+	.online-center-bg {
+		width: 100%;
+	}
+	.online-center-description {
+		width: 75%;
+	}
+
+	.student-vertical-line {
+		height: 60px;
+		margin: 0 20px;
+	}
+
+	.about-us-description {
+		width: 100%;
+	}
+
+	.copyright {
+		text-align: center;
+		margin-top: 20px;
+	}
+}

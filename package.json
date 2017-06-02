@@ -1,20 +1,14 @@
 {
-  "name": "static-website-webpack-boilerplate",
+  "name": "ThoughtWorks School Home Page",
   "version": "0.0.1",
-  "description": "Static website boilerplate using webpack and bootstrap",
+  "description": "",
   "main": "bundle.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "webpack",
-    "boilerplate",
-    "static",
-    "website"
-  ],
-  "author": "Binoy Patel",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.13.2",

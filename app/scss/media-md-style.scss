@@ -1,5 +1,10 @@
 @media (min-width: 768px) {
 
+	#navbar {
+		.navbar-collapse {
+			margin-left: 64px;
+		}
+	}
 	.tw-school-title {
 		font-size: 44px;
 		letter-spacing: 28px;

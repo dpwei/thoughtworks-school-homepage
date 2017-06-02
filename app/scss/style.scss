@@ -7,11 +7,16 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+section {
+	padding: 40px 0;
+	margin-bottom: 32px;
+}
+
 #navbar {
 
 	.nav-link {
 		letter-spacing: 2px;
-		padding: 10px 20px;
+		padding: 10px 25px;
 	}
 
 	.dropdown-menu {
@@ -22,10 +27,6 @@ html {
 
 .bg-inverse {
 	transition: 0.5s;
-}
-
-.horizon-line {
-	border-bottom: 1px solid #999;
 }
 
 header {
@@ -111,6 +112,7 @@ header {
 
 .offline-activity-bg {
 	background: #fff;
+	margin-bottom: 80px;
 }
 
 .tech-power-bg {

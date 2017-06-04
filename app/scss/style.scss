@@ -32,7 +32,7 @@ section {
 header {
 	background: url(../img/header-bg.png) no-repeat scroll center center;
 	background-size: cover;
-	height: 770px;
+	min-height: 770px;
 
 	.tw-school-logo-wh {
 		margin-top: 164px;
@@ -71,15 +71,9 @@ header {
 	letter-spacing: 2px;
 }
 
-.targets-description-subtitle {
-	font-size: 32px;
-	letter-spacing: 16px;
-}
-
 .targets-img-bg {
 	background: url(../img/targets-bg.png) no-repeat scroll center center;
 	background-size: cover;
-	height: 300px;
 
 	.card-title {
 		margin-bottom: 0;
@@ -93,7 +87,6 @@ header {
 .online-center-bg {
 	background: url(../img/online-center-bg.png) no-repeat scroll center center;
 	background-size: cover;
-	height: 408px;
 }
 
 .online-center-title {
@@ -111,7 +104,11 @@ header {
 
 .offline-activity-bg {
 	background: #fff;
-	margin-bottom: 80px;
+}
+
+.activity-description {
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 .tech-power-bg {
@@ -296,7 +293,6 @@ footer {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
 	background-size: contain;
-	height: 35px;
 	width: 15px;
 }
 
@@ -320,12 +316,10 @@ footer {
 }
 
 .carousel-control-prev {
-	left: -30px;
 	justify-content: flex-start;
 }
 
 .carousel-control-next {
-	right: -30px;
 	justify-content: flex-end;
 }
 
@@ -363,10 +357,9 @@ footer {
 	}
 
 	.activity-description {
-		text-align: center;
-		letter-spacing: 1px;
-		order: 4;
 		width: 100%;
+		text-align: center;
+		order: 4;
 	}
 
 	.activity-btn {

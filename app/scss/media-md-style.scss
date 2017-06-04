@@ -30,8 +30,20 @@
 		}
 	}
 
+	.targets-description-subtitle {
+		font-size: 32px;
+		letter-spacing: 16px;
+	}
+
 	.targets-underline {
 		width: 70%;
+	}
+
+	.activity-btn {
+		.btn {
+			padding: 12px 20px;
+			font-size: 18px;
+		}
 	}
 
 	.student-vertical-line {
@@ -47,5 +59,16 @@
 
 	.about-us-description {
 		width: 50%;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 35px;
+	}
+	.carousel-control-prev {
+		left: -30px;
+	}
+
+	.carousel-control-next {
+		right: -30px;
 	}
 }

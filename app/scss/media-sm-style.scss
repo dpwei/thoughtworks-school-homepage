@@ -11,17 +11,17 @@
 		}
 	}
 	.tw-school-title {
-		font-size: 36px;
-		letter-spacing: 20px;
+		font-size: 34px;
+		letter-spacing: 10px;
 	}
 	.tw-school-subtitle {
 		font-size: 14px;
-		letter-spacing: 4px;
+		letter-spacing: 1px;
 		font-weight: lighter;
 	}
 
 	.btn-study {
-		margin-top: 140px;
+		margin-top: 80px;
 	}
 
 	.targets-img-bg {
@@ -37,6 +37,11 @@
 		}
 	}
 
+	.targets-description-subtitle {
+		font-size: 32px;
+		letter-spacing: 10px;
+	}
+
 	.targets-underline {
 		width: 95%;
 	}
@@ -47,6 +52,28 @@
 
 	.online-center-description {
 		width: 75%;
+	}
+
+	.activity-name {
+		div {
+			font-size: 16px;
+		}
+	}
+	.activity-description {
+		font-size: 14px;
+	}
+
+	.student-testimonial {
+		font-size: 16px;
+
+		&::before {
+			top: -18px;
+			left: 8px;
+		}
+		&::after {
+			bottom: -18px;
+			right: 8px;
+		}
 	}
 
 	.student-vertical-line {
@@ -61,5 +88,17 @@
 	.copyright {
 		text-align: center;
 		margin-top: 20px;
+	}
+
+	.carousel-item {
+		padding: 0 10px;
+	}
+
+	.carousel-control-prev {
+		left: -10px;
+	}
+
+	.carousel-control-next {
+		right: -10px;
 	}
 }
